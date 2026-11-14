@@ -1,0 +1,8 @@
+main\GPIO_initialize.c:39 [style:constParameterCallback] Parameter 'arg' can be declared as pointer to const. However it seems that 'gpio_isr_handler' is a callback function, if 'arg' is declared with const you might also need to cast function pointer(s).
+main\eth.c:63 [style:constParameterCallback] Parameter 'arg' can be declared as pointer to const. However it seems that 'eth_event_handler' is a callback function, if 'arg' is declared with const you might also need to cast function pointer(s).
+main\eth.c:63 [style:constParameterCallback] Parameter 'data' can be declared as pointer to const. However it seems that 'eth_event_handler' is a callback function, if 'data' is declared with const you might also need to cast function pointer(s).
+main\eth.c:223 [style:constParameterCallback] Parameter 'arg' can be declared as pointer to const. However it seems that 'sntp_retry_task' is a callback function, if 'arg' is declared with const you might also need to cast function pointer(s).
+main\main.c:133 [style:constParameterCallback] Parameter 'pvParameters' can be declared as pointer to const. However it seems that 'modbus_poll_task' is a callback function, if 'pvParameters' is declared with const you might also need to cast function pointer(s).
+main\main.c:151 [style:constParameterCallback] Parameter 'pvParameters' can be declared as pointer to const. However it seems that 'modbus_tcp_poll_task' is a callback function, if 'pvParameters' is declared with const you might also need to cast function pointer(s).
+main\main.c:215 [style:constVariablePointer] Variable 'eth_netif' can be declared as pointer to const
+main\modbus_rtu.c:81 [style:unreadVariable] Variable 'param' is assigned a value that is never used.
